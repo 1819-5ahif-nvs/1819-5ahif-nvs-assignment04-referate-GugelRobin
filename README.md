@@ -3,9 +3,9 @@
 ## Beispiel Chatter
 
 - Eine kleine Proof-of-Concept Chat-Applikation
-- 
 - Das Beispiel kann mit start.sh ausgeführt werden.
 - Rest Endpoints:
+
 Die Rest Endpoints ist kein direkter Zugriff möglich. Falls Sie direkt auf die Rest-Endpoints zugreifen wollen, müssen Sie in der 'docker-compose.yml' Datei 
 'services/thorntail/expose/ - "8080"' durch 'services/thorntail/ports/ -8080:8080' ersetzen. Rest ist nun unter der URL localhost:8080/api... verfügbar
 | Methode |                          URL                          |                                            Beschreibung                                                       |
