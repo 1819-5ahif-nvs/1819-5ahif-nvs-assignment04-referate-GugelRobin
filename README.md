@@ -17,5 +17,6 @@ Die Rest Endpoints ist kein direkter Zugriff möglich. Falls Sie direkt auf die 
 | PUT     |                 /api/users/login                      | Im Body wird ein User Json Objekt mitgegeben. Falls der Benutzer noch nicht existiert wird ein neuer erstellt |
 
 ## Ausarbeitung des Referats
-Die Ausarbeitung des Referats ist in der Datei 'PWA Präsentation.pdf' verfügbar
-Die Ausarbeitung des Beispiels ist in der Datei 'Getting Started-PWA.pdf' verfügbar
+Die Ausarbeitung des Referats ist in der Datei 'PWA Präsentation.pdf' verfügbar.
+
+Die Ausarbeitung des Beispiels ist in der Datei 'Getting Started-PWA.pdf' verfügbar.
