@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+    nginx:
+        build: nginx
+        ports:
+          - 443:443
+          - 80:80
+        volumes:
+          - ./nginx/html:/usr/share/nginx/html
+        depends_on:
+          - thorntail
+    derby:
+        build: derby
+        expose:
+          - "1527"
+        volumes:
+           - ./derby/derby_database:/home
+    thorntail:
+        build: thorntail
+        expose:
+          - "8080"
+        depends_on:
+           - derby
+    

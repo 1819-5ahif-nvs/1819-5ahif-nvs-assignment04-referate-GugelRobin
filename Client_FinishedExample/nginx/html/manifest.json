@@ -1,0 +1,14 @@
+{
+  "name": "Chatter",
+  "short_name": "Chatter",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#f4f4f4",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatter | Chat</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+            <h1 class="container">
+                <span id="username_placeholder"></span>
+                <button class="back_button" onclick="history.back()">Back</button>
+            </h1>
+        </span>
+
+    </header>
+    <div class="container" id="chat_container">
+
+    </div>
+
+    <div class="container" id="input_container">
+        <label for="message_input"></label><input type="text" id="message_input"/>
+        <button class="button_primary" id="send_message_button">Send</button>
+    </div>
+
+    <script src="js/load_chat.js" type="module"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

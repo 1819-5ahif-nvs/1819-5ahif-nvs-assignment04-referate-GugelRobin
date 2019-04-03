@@ -1,0 +1,14 @@
+Wed Apr 03 09:47:33 UTC 2019 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Wed Apr 03 09:47:42 UTC 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0169-e298-b636-00000ed62000 
+on database directory /home/chatterDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1affbebc 
+Loaded from file:/opt/derby/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.1+13-Debian-3
+user.dir=/home
+os.name=Linux
+os.arch=amd64
+os.version=4.10.0-38-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

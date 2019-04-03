@@ -1,0 +1,134 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+    height: 100%;
+}
+
+.container {
+    width:80%;
+    margin: 20px auto auto;
+    overflow:hidden;
+}
+
+button {
+    height:38px;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 1;
+    transition: .05s all;
+}
+
+
+button:active {
+    opacity: 0.8;
+    transform: scale(.95);
+}
+
+
+.back_button {
+    float: right;
+    margin-top: 6px;
+    font-size: 80%;
+    background: #5a9ee8;
+    height: 10%;
+    border: black 2px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.button_primary {
+    color:#ffffff;
+    background: #5a9ee8;
+}
+
+
+
+header {
+    background-color: #5a9ee8;
+    margin-bottom: 50px;
+    border-bottom: black 3px solid;
+}
+
+
+
+#users_container div {
+    background-color: #5a9ee8;
+    padding: 20px;
+    margin: 10px;
+    border: black 3px solid;
+}
+
+
+#input_container {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+}
+
+#message_input {
+    float: left;
+    width: 70%;
+}
+
+#send_message_button {
+    float: right;
+    width: 20%;
+}
+
+#chat_container {
+    height: 70%;
+    overflow-y: scroll;
+}
+
+
+#chat_container .sent_message, #chat_container .received_message {
+    width: 50%;
+    height: fit-content;
+    border: black 3px solid;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 0;
+}
+
+#chat_container .user_name {
+    color: #5a9ee8;
+    float: left;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 2px black solid;
+}
+
+#chat_container .message_text {
+    float: right;
+    color: black;
+}
+
+
+#chat_container .sent_message {
+    float: right;
+}
+
+#chat_container .received_message {
+    float: left;
+}
+
+@media(max-width: 768px) {
+    #message_input {
+        float: none;
+        width: 100%;
+    }
+    #send_message_button {
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

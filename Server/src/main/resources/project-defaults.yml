@@ -1,0 +1,8 @@
+swarm:
+  datasources:
+    data-sources:
+      derby:
+        driver-name: derby
+        connection-url: jdbc:derby://derby/chatterDB;create=true
+        user-name: root
+        password: root
